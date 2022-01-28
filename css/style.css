@@ -105,16 +105,21 @@ h1{
 .container{
     position: relative;
     top: 0;
-    left: 25vw;
-    width: 750px;
+    left: 18vw;
     height: 430px;
 }
 
-.container iframe{
+video{
+    width: 930px;
+    height: 524px;
+    border-radius: 50px;
+}
+
+/* .container iframe{
     border-radius: 25px;
     width: 750px;
     height: 430px;
-}
+} */
 
 .container-verduurzamen{
     position: relative;
@@ -124,11 +129,11 @@ h1{
     height: 430px;
 }
 
-.container-verduurzamen iframe{
+/* .container-verduurzamen iframe{
     border-radius: 25px;
     width: 750px;
     height: 430px;
-}
+} */
 
 .s5 h2{
     font-size: 6em;
@@ -159,7 +164,7 @@ h2{
     line-height: 80px;
     position: absolute;
     top: 8vh;
-    left: 25vw;
+    left: 18vw;
     text-align: center;
 }
 
