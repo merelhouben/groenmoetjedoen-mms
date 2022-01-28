@@ -54,6 +54,11 @@ body{
     font-size: 10px;
 }
 
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
 #begin{
     background: url('../img/begin.png');
     background-size: cover;
@@ -64,6 +69,8 @@ body{
 
 span{
     color: green;
+    background: white;
+    border-radius: 25px;
 }
 
 h1{
@@ -73,16 +80,76 @@ h1{
     left: 0;
     color: white;
     text-align: center;
+    font-weight: bold;
 }
 
-button{
+#beginbutton{
     color: green;
     background: white;
-    width: 100px;
-    height: 100px;
+    width: 120px;
+    height: 120px;
     border-radius: 50%;
     border: none;
-    font-size: 2em;
+    font-size: 3em;
+    font-weight: bold;
+    position: relative;
+    top: 50vh;
+    left: 45vw;
+}
+
+#beginbutton:hover{
+    background-color:green;
+    color:white;
+}
+
+.container{
+    position: relative;
+    top: 0;
+    left: 25vw;
+    width: 750px;
+    height: 430px;
+}
+
+.container iframe{
+    border-radius: 25px;
+    width: 750px;
+    height: 430px;
+}
+
+.container-verduurzamen{
+    position: relative;
+    top: 15vh;
+    left: 25vw;
+    width: 750px;
+    height: 430px;
+}
+
+.container-verduurzamen iframe{
+    border-radius: 25px;
+    width: 750px;
+    height: 430px;
+}
+
+.s5 h2{
+    font-size: 6em;
+    width: 430px;
+    font-weight: bold;
+    line-height: 80px;
+    position: absolute;
+    top: 12vh;
+    left: 34vw;
+    text-align: center;
+}
+
+#keuze h2{
+    font-size: 6em;
+    width: 430px;
+    font-weight: bold;
+    line-height: 80px;
+    position: absolute;
+    top: 12vh;
+    left: 34vw;
+    text-align: center;
 }
 
 h2{
@@ -91,8 +158,8 @@ h2{
     font-weight: bold;
     line-height: 80px;
     position: absolute;
-    top: 15vh;
-    left: 35vw;
+    top: 8vh;
+    left: 25vw;
     text-align: center;
 }
 
@@ -215,7 +282,6 @@ nav{
     cursor: pointer;
 }
 
-
 #nietverduurzamen{
     width: 200px;
     height: 200px;
@@ -240,28 +306,17 @@ nav{
     margin-top: 18px;
 }
 
-/* .b1{
-    background: grey;
-    margin-top: -50px;
-} */
-
-/* #zonnepanelen{
-    float: left;
-    background: url('../img/zonnepanelen@4x.png'); 
-    height: 100vh;
-    width: 50vw;
-} */
-
 #zonnepanelen{
     width: 20vw;
     height: 10vh;
     font-size: 3em;
     color: black;
     border: none;
-    border-radius: 10%;
+    border-radius: 25px;
     position: relative;
     top: 60vh;
     left: 40vw;
+    cursor: pointer;
 }
 
 #mestvergister{
@@ -270,10 +325,11 @@ nav{
     font-size: 3em;
     color: black;
     border: none;
-    border-radius: 10%;
+    border-radius: 25px;
     position: relative;
     top: 60vh;
     left: 15vw;
+    cursor: pointer;
 }
 
 .extra-info{
@@ -294,29 +350,28 @@ nav{
     border-radius: 20%;
 }
 
-
-/* #mestvergister{
-    float: right;
-    background: url('../img/mestvergister@4x.png');
-    height: 100vh;
-    width: 50vw;
-} */
-
-
-.s1{
+.s1, #zon1{
     background:#FFFFFF;
 }
 
-.s2{
-    background: #FFAFAF;
-}
-
-.s3{
+.s2, #zon2{
     background: #DFE7FF;
 }
 
-.s4{
+.s3, #zon3{
+    background: #DFE7FF;
+}
+
+.s4, #zon4{
     background: #FFF7E9;
+}
+
+.s5{
+background:#FFFFFF;
+}
+
+#zon5{
+    background: #DFE7FF;
 }
 
 #zon1, #zon3, #mest1, #mest3{
@@ -326,3 +381,31 @@ nav{
 #zon2, #mest2{
     background:#FFEDD2;
 }
+
+h3{
+    font-size: 2em;
+    width: 145px;
+}
+
+#bol1-zon .text, #bol2-zon .text, #bol3-zon .text, #bol4-zon .text, #bol5-zon .text {
+    position:relative;
+    bottom: 60px;
+    left:0px;
+    visibility:hidden;
+}
+    
+#bol1-zon:hover .text, #bol2-zon:hover .text, #bol3-zon:hover .text, #bol4-zon:hover .text, #bol5-zon:hover .text {
+    visibility:visible;
+}
+
+#bol1 .text, #bol2 .text, #bol3 .text, #bol4 .text, #bol5 .text {
+    position:relative;
+    bottom: 60px;
+    left:0px;
+    visibility:hidden;
+}
+    
+        
+#bol1:hover .text, #bol2:hover .text, #bol3:hover .text, #bol4:hover .text, #bol5:hover .text {
+    visibility:visible;
+}    
