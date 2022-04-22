@@ -1,0 +1,376 @@
+
+
+h1{
+    font-size: 4em;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+p{
+    font-size: 1.5vw;
+}
+
+.pagina1{
+    height: 100vh;
+    position: relative;
+}
+
+.titel{
+    position: absolute;
+    top: 15%;
+    left: 10%;
+}
+
+
+#achtergrond1{
+    position: relative
+   
+}
+#familie{
+    position: absolute;
+    left: 33%;
+    top: 40%;
+}
+
+#familie:hover{
+    border: 8px solid green;
+    border-radius: 5%;
+}
+
+#vergister:hover{
+    border: 8px solid green;
+    border-radius: 5%;
+}
+#paneel:hover{
+    border: 8px solid green;
+    border-radius: 5%;
+}
+/*2e pagina/*/
+
+.pagina2{
+    height: 100vh;
+    position: relative; 
+}
+
+#achtergrond2{
+    position: relative
+   
+}
+
+#dgb{
+    position: absolute;
+    left: 10%;
+    top: 5%;
+
+}
+
+.witvlak{
+    background-color: white;
+    opacity: 0.7;
+    border-radius: 60px;
+    height: 60%;
+    width: 80%;
+    position: absolute;
+    left: 10%;
+    top: 25%;
+  
+}
+
+.intro{
+    height: 40%;
+    width: 70%;
+    position: absolute;
+    left: 15%;
+    top: 35%;
+    z-index: 10;
+    text-align: center;
+}
+.verderknop1{
+    width: 10%;
+    position: absolute;
+    left: 45%;
+    bottom: 10%;
+}
+
+
+/*keuze*/
+#vergister{
+    position: absolute;
+    left: 1%;
+    top: 45%;
+}
+
+#paneel{
+    position: absolute;
+    left: 67%;
+    top: 58%;
+}
+
+#exit{
+    position: absolute;
+    left: 1%;
+    top: 1%;
+}
+
+/*polaroid */
+
+#video{
+    position: absolute;
+    left: 25%;
+    top: 240%;
+}
+
+#video2{
+    position: absolute;
+    left: 25%;
+    top: 340%;
+}
+
+#video3{
+    position: absolute;
+    left: 25%;
+    top: 440%;
+}
+
+.tekstvak{
+    position: absolute;
+    width: 50%;
+    height: 60%;
+    left: 27.5%;
+    top: 130%;
+}
+.tekstvak2{
+    position: absolute;
+    width: 50%;
+    height: 60%;
+    left: 27.5%;
+    top: 230%;
+}
+.tekstvak3{
+    position: absolute;
+    width: 50%;
+    height: 60%;
+    left: 27.5%;
+    top: 330%;
+}
+
+.tekstvak4{
+    position: absolute;
+    width: 50%;
+    height: 60%;
+    left: 27.5%;
+    top: 430%;
+}
+
+.tekstvak5{
+    position: absolute;
+    width: 50%;
+    height: 60%;
+    left: 27.5%;
+    top: 530%;
+}
+.kolom{
+    float: left;
+    width: 50%;
+}
+
+.scroll{
+     position: absolute;
+    left: 50%;
+    top: 92%;
+}
+
+.scroll2{
+    position: absolute;
+   left: 50%;
+   top: 192%;
+}
+
+.scroll3{
+    position: absolute;
+   left: 50%;
+   top: 292%;
+}
+
+.scroll4{
+    position: absolute;
+   left: 50%;
+   top: 392%;
+}
+
+.scroll5{
+    position: absolute;
+   left: 50%;
+   top: 492%;
+}
+
+.scroll6{
+    position: absolute;
+   left: 50%;
+   top: 592%;
+}
+
+#pol1{
+    position: absolute;
+    left: 5%;
+    top: 10%;
+}
+
+#pol2{
+    position: absolute;
+    left: 65%;
+    top: 10%;
+}
+#pol3{
+    position: absolute;
+    left: 35%;
+    top: 50%;
+}
+
+
+#pol1z{
+    position: absolute;
+    left: 20%;
+    top: 5%;
+}
+
+#pol2z{
+    position: absolute;
+    left: 55%;
+    top: 5%;
+}
+#pol3z{
+    position: absolute;
+    left: 20%;
+    top: 50%;
+}
+
+#pol4z{
+    position: absolute;
+    left: 55%;
+    top: 50%;
+}
+
+/*losse info pagina's*/
+
+.volgende{
+    position: absolute;
+    left: 45%;
+    top: 391%;
+
+}
+
+.volgende2{
+    position: absolute;
+    left: 45%;
+    top: 491%;
+
+}
+
+.volgende3{
+    position: absolute;
+    left: 45%;
+    top: 591%;
+
+}
+
+#polaroidgroot{
+    position: absolute;
+    left: 25%;
+    top: 30%;
+}
+
+#polaroidgroot2{
+    position: absolute;
+   left: 20%;
+   top: -5%;
+}
+#polaroidgroot3{
+    position: absolute;
+   left: 27.5%;
+   top: 25%;
+}
+
+#polaroidgroot4{
+    position: absolute;
+   left: 15%;
+   top: 5%;
+}
+.audio{
+    width: 16%;
+    position: absolute;
+    left: 40%;
+    top: 80%;
+}
+
+.audio2{
+    width: 16%;
+    position: absolute;
+    left: 40%;
+    top: 75%;
+}
+
+#exit1{
+    position: absolute;
+    left: 1%;
+    top: 101%;
+}
+
+#exit2{
+    position: absolute;
+    left: 1%;
+    top: 201%;
+}
+
+#exit3{
+    position: absolute;
+    left: 1%;
+    top: 301%;
+}
+
+#exit4{
+    position: absolute;
+    left: 1%;
+    top: 401%;
+}
+
+#exit5{
+    position: absolute;
+    left: 1%;
+    top: 501%;
+}
+#home{
+    position: absolute;
+    left: 94%;
+    top: 1%;
+}
+
+#home2{
+    position: absolute;
+    left: 94%;
+    top: 101%;
+}
+
+#home3{
+    position: absolute;
+    left: 94%;
+    top: 201%;
+}
+
+#home4{
+    position: absolute;
+    left: 94%;
+    top: 301%;
+}
+
+#home5{
+    position: absolute;
+    left: 94%;
+    top: 401%;
+}
+
+#home6{
+    position: absolute;
+    left: 94%;
+    top: 501%;
+}
